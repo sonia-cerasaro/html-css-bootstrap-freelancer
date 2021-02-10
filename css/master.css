@@ -13,6 +13,30 @@
   border: black solid 2px;
 }
 
+@media (min-width: @screen-lg-min) {
+
+  .col-lg-4 {
+    height: 100px;
+    border: black solid 1px;
+  }
+
+}
+
+@media (min-width: @screen-sm-min) {
+
+  .col-sm-4 {
+    height: 100px;
+    border: black solid 1px;
+  }
+
+  .col-sm-6 {
+    height: 100px;
+    border: black solid 1px;
+  }
+ }
+
+
+
 
 .col-xs-6 {
   height: 100px;
