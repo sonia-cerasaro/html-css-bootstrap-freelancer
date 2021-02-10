@@ -13,6 +13,13 @@
   border: black solid 2px;
 }
 
+.hamburger {
+  width: 35px;
+  height: 2px;
+  background-color: black;
+  margin: 6px 0;
+}
+
 @media (min-width: @screen-lg-min) {
 
   .col-lg-4 {
@@ -34,8 +41,6 @@
     border: black solid 1px;
   }
  }
-
-
 
 
 .col-xs-6 {
