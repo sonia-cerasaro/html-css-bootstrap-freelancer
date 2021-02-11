@@ -112,21 +112,19 @@ img {
   border: black solid 1px;
 }
 
-
-@media all and (min-width: 350px){
-  .collapse.navbar-collapse {
-    display:inline-block;
-  }
-
+.collapse.navbar-collapse {
+  display:inline-block;
 }
 
 
 
-@media all and (min-width: 992px) {
+@media all and (min-width: 768px) {
 
 ul.nav.navbar-nav {
     display:none;
   }
+
+
 
 
 
@@ -141,6 +139,10 @@ ul.nav.navbar-nav {
     /* background-color: blue; */
 
 @media all and (min-width: 1200px) {
+
+  ul.nav.navbar-nav {
+      display:none;
+    }
 
   .col-lg-4 {
       background-color: green;
