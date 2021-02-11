@@ -129,8 +129,10 @@ img.cabin {
 }
 
 /* ABOUT */
+
 .container-fluid.about {
   background-color: #1abc9c;
+  color: #fff;
 }
 
 .container.about {
@@ -142,13 +144,27 @@ img.cabin {
   color: white;
 }
 
-.content.about > p {
+.content.par > p {
+  width: 60%;
+  height: 70%;
   text-align: left;
+  margin: auto;
 }
 
+.content.about > h3 {
+  margin-top: 30px;
+}
+
+.line-star.about {
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
 
 /* MEDIA */
-
 
 @media all and (min-width: 768px) {
 
@@ -167,10 +183,30 @@ ul.nav.navbar-nav {
 
   /* NAV BAR FINO QUI */
 
+  .line-star.jumbo {
+    width: 150px;
+  }
+
+  .line-star.portfolio {
+    width: 150px;
+  }
+
+  .content.par.right > p{
+    margin-left: 0;
+  }
+
+  .content.par.left > p{
+    margin-right: 0;
+  }
+
+  .content.about {
+    margin-bottom: 0;
+  }
 }
 
 
 @media all and (min-width: 1200px) {
+
 
 
 
