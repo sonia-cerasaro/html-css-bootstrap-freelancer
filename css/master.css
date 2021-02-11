@@ -26,7 +26,11 @@ nav > .container-fluid {
     font-weight: bold;
 }
 
-
+.lista_lunga {
+  width: 50px;
+  height:30px;
+  background-color: white;
+}
 /* button {
   width: 50px;
   margin-top: 10px;
@@ -34,6 +38,8 @@ nav > .container-fluid {
   border: lightgrey solid 1px;
   border-radius: 4px;
 } */
+
+
 
 a {
   color: white;
@@ -69,9 +75,13 @@ a.dropdown-toggle {
   display:inline-block;
 }
 
-.menu ul {
+.menu li {
+    display: none;
+  }
+
+/* .menu ul {
   display: none;
-}
+} */
 
 
 /* JAMBO */
@@ -122,16 +132,21 @@ ul.nav.navbar-nav {
     display:none;
   }
 
-.menu ul li {
-  display: inline-block;
+.menu ul {
+  margin-top: 20px;
 }
+.menu li {
+  padding-right: 10px;
+  display: inline-block;
+  font-size: 12px;
+  }
+
+  /* NAV BAR FINO QUI */
 
 }
 
 
 @media all and (min-width: 1200px) {
-
-
 
 
 
