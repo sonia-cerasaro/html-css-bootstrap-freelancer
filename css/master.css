@@ -36,25 +36,19 @@ button {
   border-radius: 4px;
 }
 
-.burger_container {
-  margin-left: 12px;
-  text-align: center;
-}
-
-.hamburger {
-  width: 25px;
-  height: 2px;
-  background-color: lightgrey;
-  margin: 6px 0;
-}
 
 a {
   color: white;
+}
 
+i.fas.fa-bars {
+  color: grey;
 }
 
 a.dropdown-toggle {
-    border: white solid 1px;
+  background-color: #2c3e50;
+  border-radius: 4px;
+  border: grey solid 1px;
 }
 
 
