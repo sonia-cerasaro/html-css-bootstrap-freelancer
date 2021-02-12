@@ -227,7 +227,26 @@ button.b_b_send {
   border: #fff solid 1px;
   border-radius: 5px;
   background-color: #1abc9c;
+  margin-bottom: 35px;
 }
+
+/* FOOTER */
+
+.my_foot_container{
+  color: #fff;
+  background-color: #405972;
+  text-align: center;
+}
+
+.content_location, .content_web, .content_about_freelancer {
+  width: 80%;
+  margin: 40px 0;
+}
+
+.booty {
+  color: #1abc9c;
+}
+
 
 /* COPYRIGHT */
 
@@ -238,14 +257,9 @@ button.b_b_send {
 
 .content-copyright {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
-
-
-
-
 
 /* MEDIA */
 
