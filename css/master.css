@@ -20,9 +20,19 @@ nav > .container-fluid {
 }
 
 .content-nav.left {
-    margin-top: 20px;
+    margin-top: 30px;
     color: #fff;
     font-weight: bold;
+}
+
+/* ul nav bar right CONTROLLA  */
+
+/* my-dropdown-toggle { DA TOGLIERE
+    /* margin-bottom: 10px; */
+
+
+.my-drop-menu li > a {
+  color: #fff;
 }
 
 .lista_lunga {
@@ -39,12 +49,15 @@ i.fas.fa-bars {
   color: grey;
 }
 
+.my-dropdown-toggle {
+  margin-bottom: 10px;
+}
+
 a.dropdown-toggle {
   background-color: #2c3e50;
   border-radius: 4px;
   border: grey solid 1px;
 }
-
 
 .nav_list ul li {
   display: inline-block;
@@ -67,6 +80,13 @@ a.dropdown-toggle {
 .menu li {
     display: none;
   }
+
+.my-button {
+  margin: 0;
+  padding: 0;
+  border: none;
+
+}
 
 /* JAMBO */
 
@@ -235,12 +255,16 @@ button.b_b_send {
 .my_foot_container{
   color: #fff;
   background-color: #405972;
-  text-align: center;
+
 }
 
 .content_location, .content_web, .content_about_freelancer {
   width: 80%;
   margin: 40px 0;
+  text-align: center;
+}
+.content_location > p {
+  text-align: center;
 }
 
 .booty {
