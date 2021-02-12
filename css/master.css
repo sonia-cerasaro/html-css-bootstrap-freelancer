@@ -25,6 +25,38 @@ nav > .container-fluid {
     font-weight: bold;
 }
 
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #1abc9c;
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #2c3e50;
+    border-color: #2c3e50 ;
+}
+
+.fa-bars:before {
+  color: #fff;
+  content: "\f0c9";
+}
+
+a:focus, a:hover {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.my-drop-menu li > a {
+    color: #1abc9c;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #1abc9c;
+    text-decoration: none;
+    background-color: #2c3e50 ;
+}
+
+
+
 /* ul nav bar right CONTROLLA  */
 
 /* my-dropdown-toggle { DA TOGLIERE
@@ -56,7 +88,7 @@ i.fas.fa-bars {
 a.dropdown-toggle {
   background-color: #2c3e50;
   border-radius: 4px;
-  border: grey solid 1px;
+  border: white solid 1px;
 }
 
 .nav_list ul li {
@@ -260,7 +292,7 @@ button.b_b_send {
 
 .content_location, .content_web, .content_about_freelancer {
   width: 80%;
-  margin: 40px 0;
+  margin: 40px;
   text-align: center;
 }
 .content_location > p {
@@ -288,6 +320,11 @@ button.b_b_send {
 /* MEDIA */
 
 @media all and (min-width: 768px) {
+
+  .content-nav.left {
+    margin-top: 20px;
+
+}
 
 ul.nav.navbar-nav {
     display:none;
@@ -323,10 +360,17 @@ ul.nav.navbar-nav {
   .content.about {
     margin-bottom: 0;
   }
+
+  img.jambo-img{
+    width: 200px;
+
+}
 }
 
 
 @media all and (min-width: 1200px) {
+
+
 
 
 }
