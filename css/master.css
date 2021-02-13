@@ -56,13 +56,6 @@ a:focus, a:hover {
 }
 
 
-
-/* ul nav bar right CONTROLLA  */
-
-/* my-dropdown-toggle { DA TOGLIERE
-    /* margin-bottom: 10px; */
-
-
 .my-drop-menu li > a {
   color: #fff;
 }
@@ -149,8 +142,10 @@ img {
 
 /* PORTFOLIO TITLE */
 
-.content.portfolio {
+.content_portfolio {
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .line-star.portfolio {
@@ -164,20 +159,38 @@ img {
 
 /* PORTFOLIO IMAGES */
 
-.content {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
-
-.content.cabin {
-  text-align: center;
+.content-cabin {
+  margin-bottom: 30px;
 }
 
 img.cabin {
   width: 100%;
   height: 100%;
   border-radius: 5px;
+}
+
+.content-cabin:hover {
+  background: #1abc9c;
+  border-radius: 5px;
+}
+
+.content-cabin:hover img {
+  opacity: 0.3;
+}
+
+.content-cabin:hover .overlay_img .fa-plus {
+  visibility: visible;
+}
+
+.overlay_img .fa-plus {
+  visibility: hidden;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  transform: translate(-50% -50%);
 }
 
 /* ABOUT */
@@ -194,6 +207,7 @@ img.cabin {
 .content.about {
   text-align: center;
   color: white;
+  padding-bottom: 15px;
 }
 
 .content.par > p {
@@ -217,11 +231,13 @@ img.cabin {
 }
 
 .content.download-button {
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
 button.download{
-  padding: 5px;
+  padding: 5px 10px;
   border: #fff solid 1px;
   border-radius: 5px;
   background-color: #1abc9c;
@@ -275,7 +291,7 @@ button.download{
 
 button.b_b_send {
   color: white;
-  padding: 5px;
+  padding: 5px 10px;
   border: #fff solid 1px;
   border-radius: 5px;
   background-color: #1abc9c;
@@ -301,6 +317,10 @@ button.b_b_send {
 
 .booty {
   color: #1abc9c;
+}
+
+.social > i {
+  padding: 5px;
 }
 
 
