@@ -39,7 +39,8 @@ nav > .container-fluid {
   background-color: #1abc9c;
 }
 
-.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+.nav .open>a, .nav .open>a:focus,
+.nav .open>a:hover {
   background-color: #2c3e50;
   border-color: #2c3e50 ;
 }
@@ -58,7 +59,8 @@ a:focus, a:hover {
   color: #1abc9c;
 }
 
-.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
   color: #1abc9c;
   text-decoration: none;
   background-color: #2c3e50;
@@ -135,8 +137,16 @@ section > .container-fluid {
   padding-top: 6.5rem;
 }
 
-img {
-  width: 150px;
+.cont-img {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 50%;
+  background-image: url("../img/me.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300px;
 }
 
 .line-star.jumbo {
@@ -251,6 +261,12 @@ button.download {
   background-color: #1abc9c;
 }
 
+button.download:hover {
+  background-color: #2c3e50;
+}
+
+/* CONTACT FORM TITLE */
+
 .content_contact {
   text-align: center;
   margin-top: 50px;
@@ -260,42 +276,42 @@ button.download {
   background-color: black;
 }
 
-.content_form {
-  width: 60%;
-  height: 70%;
-  text-align: left;
+/* BOOTSTRAP */
+
+form {
+  width: 70%;
   margin: auto;
 }
 
-.content_form:first-child {
-  margin-top: 30px;
-}
-.message {
-  margin-top: 20px;
-  margin-bottom: 80px;
+textarea {
+  margin-bottom: 15px;
 }
 
-.line_divider {
-  width: 100%;
-  height: 1px;
-  background-color: lightgrey;
-  margin: 8px 0;
-}
-
-.content_send_b {
-  width: 60%;
-  height: 70%;
-  text-align: left;
-  margin: auto;
-}
-
-.content_form > div {
+label {
   color: #2c3e50;
 }
 
-.line_divider.b_send {
-  margin-bottom: 10px;
+textarea:focus, input:focus,
+input[type]:focus,
+.uneditable-input:focus {
+    border-color: rgba(26, 188, 156, 0.8) !important;
+    box-shadow: 0 1px 1px rgba(26, 188, 156, 0.075)
+    inset, 0 0 8px rgba(26, 188, 156, 0.6) !important;
+    outline: 0 none !important;
 }
+
+button.btn.btn-default {
+  margin-bottom: 35px;
+  background-color: #1abc9c;
+  color: #fff;
+  border: transparent;
+}
+
+button.btn.btn-default:hover {
+  background-color: #2c3e50;
+}
+
+/* OTHER */
 
 span.social {
   width: 20px;
@@ -328,6 +344,10 @@ button.b_b_send {
   margin-bottom: 35px;
 }
 
+button.b_b_send:hover {
+  background-color: #2c3e50;
+}
+
 /* FOOTER */
 
 .my_foot_container{
@@ -335,7 +355,8 @@ button.b_b_send {
   background-color: #405972;
 }
 
-.content_location, .content_web, .content_about_freelancer {
+.content_location, .content_web,
+.content_about_freelancer {
   width: 80%;
   margin: 40px;
   text-align: center;
